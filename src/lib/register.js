@@ -7,7 +7,6 @@ export const signupApp = (email, password, registerError) => {
     })
     .catch((error) => {
       password.value = '';
-      registerError.textContent = 'No se pudo registrar';
       console.log(error.code);
       if (error.code === 'auth/wrong-password') {
         registerError.textContent = 'Contraseña incorrecta';
