@@ -29,7 +29,7 @@ export function signup(navigateTo) {
 
   // Título Playverse
   const nameTitle = document.createElement('h1');
-  nameTitle.classList.add('name-title');
+  nameTitle.classList.add('name-title-register');
   nameTitle.textContent = 'REGISTRO';
   registerForm.append(nameTitle);
 
