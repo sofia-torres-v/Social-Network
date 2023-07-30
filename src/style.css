@@ -31,13 +31,14 @@
 }
 
 h1{
-    color: black;
+    color: purple;
     text-align: center;
     font-size: 34px;
     margin-top: -25px;
     margin-bottom: -20px;
     letter-spacing: 3px;
     padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 .name-title-register{
